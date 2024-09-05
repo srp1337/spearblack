@@ -14,6 +14,9 @@ $ apt install pip && apt install git
 $ git clone https://github.com/srp1337/spearblack.git
 
 
+$ cd spearblack
+
+
 $ g++ spearblack.cpp -o spearblack
 
 
