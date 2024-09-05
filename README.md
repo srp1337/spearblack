@@ -18,3 +18,6 @@ $ g++ spearblack.cpp -o spearblack
 
 
 $ ./spearblack
+
+
+This is my first github project. If I make any mistakes, please write to me on telegram @srp1337
