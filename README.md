@@ -1,4 +1,4 @@
-# spearblack
+# spearblack hackig tool for new cybersecurity students
 
 USAGE
 
