@@ -18,8 +18,6 @@ void slowPrint(const string& text, unsigned int millis_per_char) {
 
 int main() {
     system("clear");
-    //system("sudo apt install pip");
-    //system("sudo apt install git");
     system("sudo apt install figlet");
     system("sudo apt install rkhunter");
     system("sudo apt install chkrootkit");
@@ -219,7 +217,7 @@ int main() {
         slowPrint("[1] mip22\n", 20);
         slowPrint("[2] zphisher\n", 20);
         slowPrint("[3] nexphisher\n", 20);
-        slowPrint("[4] advphishing(soon) \n", 20);
+        slowPrint("[4] advphishing\n", 20);
         cout << endl;
         slowPrint("srp7> ", 10);
         cin >> useropp;
@@ -244,10 +242,7 @@ int main() {
         else if (useropp == "4") {
             system("clear");
             system("git clone https://github.com/Ignitetch/AdvPhishing.git");
-            system("cd AdvPhishing/");
-            system("chmod 777 *");
-            system("./Linux-Setup.sh");
-            system("./AdvPhishing.sh");
+            system("cd AdvPhishing/ && chmod 777 * && ./Linux-Setup.sh && ./AdvPhishing.sh");
         }
         else {
             cout << endl << endl;
