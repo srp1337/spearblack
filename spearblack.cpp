@@ -19,8 +19,6 @@ void slowPrint(const string& text, unsigned int millis_per_char) {
 int main() {
     system("clear");
     system("sudo apt install figlet");
-    system("sudo apt install rkhunter");
-    system("sudo apt install chkrootkit");
     system("clear");
     system("figlet -f /usr/share/figlet/slant.flf \"SPEARBLACK\"");
 
@@ -482,8 +480,9 @@ int main() {
     }
     else if (useropp == "4") {
         cout << endl;
-        system("sudo rkhunter --check");
-        system("sudo chkrootkit");
+        system("sudo apt install chkrootkit");
+        system("sudo apt install rkhunter");
+        system("sudo rkhunter --check && sudo chkrootkit");
     }
     else if (useropp == "6") {
         cout << endl;
