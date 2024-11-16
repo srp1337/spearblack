@@ -1,4 +1,4 @@
-# spearblack hacking tool for new cybersecurity students
+# spearblack hacking tool
 
 ![Tool SS](https://i.hizliresim.com/ax01p6z.png)
 
