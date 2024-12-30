@@ -325,7 +325,7 @@ int main() {
             cout <<"If you don't know how to get the session id, check this link\n";
             cout <<"https://camo.githubusercontent.com/b456ce5d94485de8f34b0a49a1e9f72cf81b050c045cc5fa57d85359fe5264c2/68747470733a2f2f66696c65732e636174626f782e6d6f652f31726669366a2e706e67";
             cout << endl;
-            cout << "Enter sessionid: ";
+            cout << "Enter session id: ";
             cin >> sessionid;
             string command = "toutatis -u " + username + " -s " + sessionid;
             system(command.c_str());  
